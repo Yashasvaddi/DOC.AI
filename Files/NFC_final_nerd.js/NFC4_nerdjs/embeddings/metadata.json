@@ -1,0 +1,192 @@
+[
+  {
+    "doc_id": 1,
+    "section_title": "Page 1, Line 1",
+    "location": "Page 1, Line 1",
+    "theme": "Figures/Tables",
+    "chunk_index": 0,
+    "text": "Here is the extracted data in a structured format:\n\n**KEY POINTS**\n\n* The man with the scarred face has been to Aepyornis Island 25-27 years ago.\n* He used to collect orchids and other plants for Dawson's.\n* He knows someone named Butcher.\n\n**NUMERICAL VALUES**\n\n* 25-27: Number of years ago that the man visited Aepyornis Island.\n* 2: Number of years the man spent in the East Indies.\n* 7: Number of years the man spent in Brazil.\n\n**KEY TAKEAWAYS**\n\n* None\n\n**TECHNICAL DETAILS**\n\n* None\n\n**IMPORTANT FACTS**\n\n* The man with the scarred face used to collect orchids and other plants for Dawson's.\n* He has been to Aepyornis Island before.\nTheme: Figures/Tables\nLocation: Page 1, Line 1",
+    "original_chunk_id": 1,
+    "keypoints_length": 640
+  },
+  {
+    "doc_id": 2,
+    "section_title": "Page 1, Line 16",
+    "location": "Page 1, Line 16",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* The man with the scar sued someone for four years' salary.\n* He was cast away on a desert island and made a little fortune there.\n* He found Aepyornis bones nearly twenty years ago, in 1891.\n* Dawson's failure to pay the salary led to the man going adrift.\n\n**NUMERICAL VALUES**\n\n* Four years\n* Ninety miles (distance from the swamp)\n* Twenty years\n* 1891\n\n**KEY TAKEAWAYS**\n\n* The man with the scar found Aepyornis bones nearly twenty years ago.\n* Dawson's failure to pay salary led to the man going adrift.\n\n**TECHNICAL DETAILS**\n\n* None extracted in this section\n\n**IMPORTANT FACTS**\n\n* The man with the scar was cast away on a desert island.\n* He made a little fortune on the island without doing much work.\n* Aepyornis is a type of prehistoric bird, and its bones were found nearly twenty years ago.\nTheme: General Content\nLocation: Page 1, Line 16",
+    "original_chunk_id": 2,
+    "keypoints_length": 854
+  },
+  {
+    "doc_id": 2,
+    "section_title": "Page 1, Line 16",
+    "location": "Page 1, Line 16",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "ird, and its bones were found nearly twenty years ago.\nTheme: General Content\nLocation: Page 1, Line 16",
+    "original_chunk_id": 2,
+    "keypoints_length": 854
+  },
+  {
+    "doc_id": 3,
+    "section_title": "Page 2, Line 9",
+    "location": "Page 2, Line 9",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content in a structured format:\n\n**KEY POINTS**\n\n* The location mentioned is Antananarivo, which can be reached by boats along the coast.\n* The speaker has visited the place and found something that keeps things from decaying, similar to creosote.\n* The area is on the east coast and has a swampy environment with saltwater.\n* The speaker found Aepyornis eggs, some of which were as long as 1.5 feet.\n* The eggs were fresh, even after being buried for centuries.\n\n**NUMERICAL VALUES**\n\n* 1.5 feet: length of some Aepyornis eggs\n* 4 days: duration of the speaker's expedition to the swamp\n\n**KEY TAKEAWAYS**\n\n* The speaker had a unique experience finding Aepyornis eggs in the swamp.\n* The eggs were remarkably fresh, even after being buried for centuries.\n\n**TECHNICAL DETAILS**\n\n* Iron rods were used to probe into the mud to find the eggs.\n* The eggs were fragile and often got smashed during collection.\n\n**IMPORTANT FACTS**\n\n* The missionaries claim that the natives have le",
+    "original_chunk_id": 3,
+    "keypoints_length": 1155
+  },
+  {
+    "doc_id": 3,
+    "section_title": "Page 2, Line 9",
+    "location": "Page 2, Line 9",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "\n\n* Iron rods were used to probe into the mud to find the eggs.\n* The eggs were fragile and often got smashed during collection.\n\n**IMPORTANT FACTS**\n\n* The missionaries claim that the natives have legends about when Aepyornis lived.\n* The speaker never heard these stories personally, but confirms that the eggs they found were as fresh as if newly laid.\nTheme: General Content\nLocation: Page 2, Line 9",
+    "original_chunk_id": 3,
+    "keypoints_length": 1155
+  },
+  {
+    "doc_id": 4,
+    "section_title": "Page 2, Line 26",
+    "location": "Page 2, Line 26",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* A centipede had bitten him.\n* It took all day to dig into the slush and get the eggs out unbroken.\n* The narrator was cross because they were covered in beastly black mud.\n* The eggs were perfect, not even cracked, and he meant to blow them when he got back.\n* He hit the man who dropped three hours' work just on account of a centipede.\n\n**NUMERICAL VALUES**\n\n* Three hours: time spent digging into the slush\n* Three others: number of other eggs collected\n\n**KEY TAKEAWAYS**\n\n* The narrator was annoyed at the sudden drop in work due to a centipede.\n* The man with the scar was absent-mindedly filling up the pouch.\n\n**TECHNICAL DETAILS**\n\n* Spirit-lamp: used for boiling water\n* Pouch: filled with clay pipe\n\n**IMPORTANT FACTS**\n\n* The eggs were perfectly fresh and unbroken, unlike those at the Natural History Museum in London.\n* The narrator had three others, which he put in the boat before leaving them to make coffee.\nTheme: General Content\nL",
+    "original_chunk_id": 4,
+    "keypoints_length": 975
+  },
+  {
+    "doc_id": 4,
+    "section_title": "Page 2, Line 26",
+    "location": "Page 2, Line 26",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "rfectly fresh and unbroken, unlike those at the Natural History Museum in London.\n* The narrator had three others, which he put in the boat before leaving them to make coffee.\nTheme: General Content\nLocation: Page 2, Line 26",
+    "original_chunk_id": 4,
+    "keypoints_length": 975
+  },
+  {
+    "doc_id": 5,
+    "section_title": "Page 3, Line 10",
+    "location": "Page 3, Line 10",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* The narrator is stranded on a black beach with three days' provisions and no drinkable water.\n* A group of people (heathens) try to cut off the narrator's boat and leave him alone, but he manages to fend them off.\n* The narrator shoots one of the attackers with his revolver, causing him to jump into the water and drown.\n* The narrator then swims after the canoe and finds the other attacker lying dead in it.\n* The narrator discovers that the dead man had a keg of water, coffee, biscuits, and methylated spirit in the canoe.\n\n**NUMERICAL VALUES**\n\n* 50 yards: distance from land to where the narrator first sees the canoe\n* 20 yards: distance from land to where the narrator is when he shoots at the attackers\n* 3 days: amount of provisions the narrator has\n\n**KEY TAKEAWAYS**\n\n* The narrator is stranded and desperate for water.\n* He is forced to fend off attackers who try to leave him alone with limited supplies.\n\n**TECHNICAL DETAILS**\n\n* Phos",
+    "original_chunk_id": 5,
+    "keypoints_length": 1481
+  },
+  {
+    "doc_id": 5,
+    "section_title": "Page 3, Line 10",
+    "location": "Page 3, Line 10",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "rrator has\n\n**KEY TAKEAWAYS**\n\n* The narrator is stranded and desperate for water.\n* He is forced to fend off attackers who try to leave him alone with limited supplies.\n\n**TECHNICAL DETAILS**\n\n* Phosphorescence: a glowing effect in the water that makes it difficult for the narrator to see which stars are real and which are just reflections on the water.\n* Clasp-knife: a type of knife that the narrator uses to swim and later to navigate the canoe.\n\n**IMPORTANT FACTS**\n\n* The narrator is stranded with no drinkable water and limited provisions.\n* He has to fend off attackers who try to leave him alone.\n* He eventually finds the dead body of one of the attackers in the canoe.\nTheme: General Content\nLocation: Page 3, Line 10",
+    "original_chunk_id": 5,
+    "keypoints_length": 1481
+  },
+  {
+    "doc_id": 6,
+    "section_title": "Page 4, Line 31",
+    "location": "Page 4, Line 31",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content in a structured format:\n\n**KEY POINTS**\n\n* The narrator read the Cape Argus newspaper thoroughly for the first time while alone.\n* The man with the scar drifted at sea for 10 days.\n* Every day was like the last, except for the morning and evening when he didn't keep a lookout due to the intense heat.\n* No sail was seen after the first three days, and those that were seen took no notice of him.\n* On the sixth night, a ship passed by about half a mile away with all its lights ablaze and ports open, looking like a big firefly.\n* The narrator tried an Aepyornis egg and found it edible, but with a flavor similar to a duck's egg.\n\n**NUMERICAL VALUES**\n\n* 10: number of days the man with the scar drifted at sea\n* 3: number of days after which no sail was seen again\n\n**KEY TAKEAWAYS**\n\n* The narrator's experience reading the newspaper thoroughly for the first time was unusual.\n* The man with the scar's story highlights the monotony and isolation of being stranded a",
+    "original_chunk_id": 6,
+    "keypoints_length": 1159
+  },
+  {
+    "doc_id": 6,
+    "section_title": "Page 4, Line 31",
+    "location": "Page 4, Line 31",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "*KEY TAKEAWAYS**\n\n* The narrator's experience reading the newspaper thoroughly for the first time was unusual.\n* The man with the scar's story highlights the monotony and isolation of being stranded at sea.\n\n**TECHNICAL DETAILS**\n\n* None extracted from this section\n\n**IMPORTANT FACTS**\n\n* Aepyornis eggs are edible, but have a flavor similar to a duck's egg.\nTheme: General Content\nLocation: Page 4, Line 31",
+    "original_chunk_id": 6,
+    "keypoints_length": 1159
+  },
+  {
+    "doc_id": 7,
+    "section_title": "Page 5, Line 8",
+    "location": "Page 5, Line 8",
+    "theme": "Technical Details",
+    "chunk_index": 0,
+    "text": "Here is the extracted data in a structured format:\n\n**Location**: Page 5, Line 8\n\n**Key Points**:\n\n* The narrator hatches an Aepyornis egg and names the chick \"Man Friday\".\n* Man Friday grows rapidly and becomes a friendly companion to the narrator.\n* The narrator and Man Friday live on the island for nearly two years, with the narrator decorating the island with designs worked in sea-urchins and fancy shells.\n* Man Friday begins to show signs of a nasty temper and starts to cock his comb at the narrator.\n\n**Numerical Values**:\n\n* 3 days: The time it takes for the first egg to last\n* 8th day: When the second egg is opened\n* 300 years: The age of the Aepyornis eggs\n* 14 feet high: Man Friday's height when he begins to cock his comb at the narrator\n\n**Key Takeaways**:\n\n* The narrator and Man Friday have a close bond, but it eventually turns sour.\n* Man Friday becomes increasingly cantankerous and unforgiving.\n\n**Technical Details**:\n\n* The narrator uses sea-urchins and fancy shells to de",
+    "original_chunk_id": 7,
+    "keypoints_length": 1388
+  },
+  {
+    "doc_id": 7,
+    "section_title": "Page 5, Line 8",
+    "location": "Page 5, Line 8",
+    "theme": "Technical Details",
+    "chunk_index": 1,
+    "text": " Friday have a close bond, but it eventually turns sour.\n* Man Friday becomes increasingly cantankerous and unforgiving.\n\n**Technical Details**:\n\n* The narrator uses sea-urchins and fancy shells to decorate the island.\n* Man Friday's plumage changes from dirty brown with grey scab to fine green feathers at the back of his neck.\n\n**Important Facts**:\n\n* The Aepyornis eggs are 300 years old.\n* Man Friday grows rapidly, almost doubling in size within two years.\n* The narrator and Man Friday have a deep bond, but it eventually turns sour due to Man Friday's increasing cantankerousness.\nTheme: Technical Details\nLocation: Page 5, Line 8",
+    "original_chunk_id": 7,
+    "keypoints_length": 1388
+  },
+  {
+    "doc_id": 8,
+    "section_title": "Page 8, Line 19",
+    "location": "Page 8, Line 19",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* The narrator had a terrible experience sleeping on a palm tree due to an extinct bird's presence.\n* The bird would not leave the narrator alone and caused horrible nightmares.\n* The narrator tried to reason with the bird, but it only snapped its beak back at them.\n* The narrator eventually killed the bird using a South American dodge involving fishing lines, seaweed, and coral rocks.\n\n**NUMERICAL VALUES**\n\n* 12 yards: length of the string made from fishing lines and seaweed\n* Unspecified number: how long the narrator had to endure the bird's presence before killing it\n\n**KEY TAKEAWAYS**\n\n* The narrator felt a sense of shame and guilt after killing the bird.\n* The experience left the narrator feeling lonely and desolate.\n\n**TECHNICAL DETAILS**\n\n* South American dodge: an unspecified method used by the narrator to kill the bird\n* Fishing lines, seaweed, and coral rocks: materials used to create the string\n\n**IMPORTANT FACTS**\n\n* The bird ",
+    "original_chunk_id": 8,
+    "keypoints_length": 1085
+  },
+  {
+    "doc_id": 8,
+    "section_title": "Page 8, Line 19",
+    "location": "Page 8, Line 19",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "**\n\n* South American dodge: an unspecified method used by the narrator to kill the bird\n* Fishing lines, seaweed, and coral rocks: materials used to create the string\n\n**IMPORTANT FACTS**\n\n* The bird was extinct.\n* The narrator felt a sense of regret and sorrow after killing the bird.\nTheme: General Content\nLocation: Page 8, Line 19",
+    "original_chunk_id": 8,
+    "keypoints_length": 1085
+  },
+  {
+    "doc_id": 9,
+    "section_title": "Page 9, Line 8",
+    "location": "Page 9, Line 8",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* The narrator couldn't think of eating a human, so they put it in the lagoon and the little fishes picked him clean.\n* The narrator was about to give up on their atoll and consider ending their life.\n* The narrator sold the bones to Winslow, who then sold them to Havers.\n* Havers didn't understand that the bones were extra large until after his death.\n\n**NUMERICAL VALUES**\n\n* None\n\n**KEY TAKEAWAYS**\n\n* The narrator was struggling with the desolation of their atoll and considered ending their life.\n* The narrator's friend mentioned Aepyornis to them, which is a significant detail.\n\n**TECHNICAL DETAILS**\n\n* None\n\n**IMPORTANT FACTS**\n\n* Aepyornis vastus is a type of bird.\n* The bones sold by Winslow were extra large.\nTheme: General Content\nLocation: Page 9, Line 8",
+    "original_chunk_id": 9,
+    "keypoints_length": 772
+  },
+  {
+    "doc_id": 9,
+    "section_title": "Page 9, Line 8",
+    "location": "Page 9, Line 8",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "tion: Page 9, Line 8",
+    "original_chunk_id": 9,
+    "keypoints_length": 772
+  },
+  {
+    "doc_id": 10,
+    "section_title": "Page 9, Line 18",
+    "location": "Page 9, Line 18",
+    "theme": "General Content",
+    "chunk_index": 0,
+    "text": "Here is the extracted content:\n\n**KEY POINTS**\n\n* When they found an Aepyornis with a thigh a yard long, they thought they had reached the top of the scale and called it Aepyornis maximus.\n* Then someone turned up another thigh-bone four feet six or more, and that was called Aepyornis titan.\n* Your vastus was found after old Havers died, in his collection, and then a vastissimus turned up.\n\n**NUMERICAL VALUES**\n\n* 1 yard: length of the thigh of an Aepyornis\n* 4 feet 6 or more: length of another thigh-bone\n\n**KEY TAKEAWAYS**\n\n* The discovery of larger and larger Aepyornises is unusual.\n* It's possible that even larger Aepyornises could be found.\n\n**TECHNICAL DETAILS**\n\n* None extracted from this content section.\n\n**IMPORTANT FACTS**\n\n* The man with the scar was discussing the discovery of large Aepyornises with Winslow.\nTheme: General Content\nLocation: Page 9, Line 18",
+    "original_chunk_id": 10,
+    "keypoints_length": 830
+  },
+  {
+    "doc_id": 10,
+    "section_title": "Page 9, Line 18",
+    "location": "Page 9, Line 18",
+    "theme": "General Content",
+    "chunk_index": 1,
+    "text": "arge Aepyornises with Winslow.\nTheme: General Content\nLocation: Page 9, Line 18",
+    "original_chunk_id": 10,
+    "keypoints_length": 830
+  }
+]

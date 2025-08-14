@@ -1,0 +1,185 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chat Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .chat-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .chat-messages {
+            height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .user-message {
+            background-color: #e3f2fd;
+            margin-left: 20%;
+        }
+        .bot-message {
+            background-color: #f1f1f1;
+            margin-right: 20%;
+        }
+        .sources {
+            margin-top: 10px;
+            font-size: 0.8em;
+            color: #666;
+        }
+        .source-item {
+            margin-bottom: 5px;
+            padding: 5px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #4CAF50;
+        }
+        .input-area {
+            display: flex;
+            gap: 10px;
+        }
+        #user-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #send-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #send-button:hover {
+            background-color: #45a049;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>RAG Chat Interface</h1>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="loading" id="loading">
+            <p>Thinking...</p>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Ask a question..." autocomplete="off">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const loadingIndicator = document.getElementById('loading');
+
+        // API base URL - change this to your FastAPI server URL
+        const API_BASE_URL = 'http://localhost:8000';
+
+        function addMessage(content, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            messageDiv.textContent = content;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addSources(sources) {
+            const sourcesDiv = document.createElement('div');
+            sourcesDiv.className = 'sources';
+            sourcesDiv.innerHTML = '<strong>Sources:</strong>';
+            
+            sources.forEach(source => {
+                const sourceItem = document.createElement('div');
+                sourceItem.className = 'source-item';
+                sourceItem.innerHTML = `
+                    <div><strong>Document:</strong> ${source.doc_id}</div>
+                    <div><strong>Similarity:</strong> ${source.similarity}%</div>
+                    <div>${source.text}</div>
+                `;
+                sourcesDiv.appendChild(sourceItem);
+            });
+            
+            chatMessages.appendChild(sourcesDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendQuery() {
+            const query = userInput.value.trim();
+            if (!query) return;
+
+            // Add user message to chat
+            addMessage(query, true);
+            userInput.value = '';
+            
+            // Show loading indicator
+            loadingIndicator.style.display = 'block';
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // Add bot response to chat
+                addMessage(data.answer);
+                
+                // Add sources if available
+                if (data.sources && data.sources.length > 0) {
+                    addSources(data.sources);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage("Sorry, I encountered an error processing your request.");
+            } finally {
+                loadingIndicator.style.display = 'none';
+            }
+        }
+
+        // Event listeners
+        sendButton.addEventListener('click', sendQuery);
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendQuery();
+            }
+        });
+    </script>
+</body>
+</html>
